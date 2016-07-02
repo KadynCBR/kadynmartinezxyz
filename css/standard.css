@@ -144,4 +144,32 @@ a li p:hover:before {
 #main-container {
   background-color: #82abff;
   height:100%;
+  padding-bottom: 3.5em;
+}
+
+
+
+/* Footer */
+#footer {
+  background-color: #82abff;
+  clear: both;
+  position: relative;
+  height: 3.5em;
+  margin-top: -3.5em;
+}
+#footericons {
+  width: 9em;
+  margin: 0 auto;
+}
+#footericons a li {
+  display: inline-block;
+  position: relative;
+}
+#footericons a li img{
+  width: 2em;
+}
+#footer p {
+  width: 13em;
+  font-size: 1em;
+  margin: 0 auto;
 }
