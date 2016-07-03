@@ -14,14 +14,21 @@
   padding: 0;
 }
 body {
-  height:100%;
+  /*height:100%;*/
   width:100%;
+  background-color: #82abff;
 }
 
+a {
+  text-decoration: none;
+  color:black;
+}
 #body-container {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   position:absolute;
+  background-color: #82abff;
+  /*padding-bottom: 10.5em;*/
 }
 
 #header {
@@ -143,8 +150,8 @@ a li p:hover:before {
 
 #main-container {
   background-color: #82abff;
-  height:100%;
-  padding-bottom: 3.5em;
+  height: 100%;
+  padding-bottom: 7.5em;
 }
 
 
@@ -153,9 +160,13 @@ a li p:hover:before {
 #footer {
   background-color: #82abff;
   clear: both;
-  position: relative;
+  position: absolute;
   height: 3.5em;
   margin-top: -3.5em;
+  /*padding-top: 4em;*/
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 #footericons {
   width: 9em;
@@ -172,18 +183,63 @@ a li p:hover:before {
   width: 13em;
   font-size: 1em;
   margin: 0 auto;
+  color: #E8EFFF;
 }
 
 
-
+/* Main Container - All */
+#main-container {
+  width: 80%;
+  margin: 0 auto;
+  /*padding-top: 5em;*/
+}
+.imagecontainer {
+  width:10em;
+}
+.imagedisplay {
+  border-radius: 100%;
+  width: 10em;
+  height: 10em;
+}
+.projectimagedisplay {
+  border-radius: 100%;
+  width: 9em;
+  height: 9em;
+}
+.imagedisplaycaption {
+  font-size: .7em;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+/* #Main Container - All */
 
 
 
 
 /* About */
-.imagedisplay {
-  border-radius: 100%;
-  width: 10em;
+#left-about {
+  padding-top: 3em;
+  width: 20%;
+  display: inline-block;
+  float: left;
+  position: relative;
+  margin-left: 10em;;
+}
+#right-about {
+  /*padding-top: 3em;*/
+  width: 50%;
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+#right-about h2 {
+  padding-top: 2em;
+  color: #E8EFFF;
+}
+#right-about p {
+  padding-top: 1.5em;
+  color: #E8EFFF;
 }
 /* /about */
 
@@ -191,12 +247,128 @@ a li p:hover:before {
 
 
 /* Projects */
+#projects-intro {
+  width:70%;
+  margin: 0 auto;
+  padding-top: 2em;
+  text-align: center;
+}
+#projects-intro h3 {
+  color: #E8EFFF;
+  font-size: 1em;
+}
+#projects-intro h4 {
+  font-size:.8em;
+}
+.project-container {
+  position: relative;
+  padding-top: 1em;
+  overflow: hidden;
+  background-color: rgba(255, 129, 171, 0.3);
+  padding-bottom: 1em;
+  margin-top: 2em;
+  transition: background-color .5s linear;
+  -webkit-transition: background-color .5s linear;
+  -moz-transition: background-color .5s linear;
+}
+.project-container:hover {
+  background-color: rgba(255, 129, 171, .7);
+}
+.left-project {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  float: left;
+}
+.left-project .imagecontainer {
+  width: 9em;
+  margin: 0 auto;
+}
+.right-project {
+  display: inline-block;
+  position: relative;
+  width: 70%;
+  float: right;
+  padding-right: 2em;
+  color: #E8EFFF;
+}
+.right-project h2 {
+  padding-top: 0.1em;
+}
+.right-project p {
+  padding-top: 0.7em;
+}
+.upper-left-triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 40px solid #82abff;
+  border-bottom: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-left:40px solid #82abff;
 
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+}
 
+/* This is stupid.
+.project-container:hover .upper-left-triangle {
+  top: 70%;
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg)
+} */
+.bottom-right-triangle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid #82abff;
+  border-right: 40px solid #82abff;
+  border-left:40px solid transparent;
+}
 /* /Projects */
 
 
 
 /* Contact  */
+#left-contact {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 50%;
+  padding-top: 5em;
+}
 
+#left-contact h2 {
+  color: #E8EFFF;
+}
+#left-contact p {
+  padding-top: 1.5em;
+  color: #E8EFFF;
+  margin: 0 auto;
+  width: 90%;
+}
+#right-contact {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 30%;
+  padding-top: 5em;
+  margin-left: 8em;
+}
+#right-contact h2 {
+  color: #E8EFFF;
+}
+#right-contact p {
+  color: #E8EFFF;
+  padding-top: 1.5em;
+  margin: 0 auto;
+  width: 90%;
+}
 /* /Contact */
