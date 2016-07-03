@@ -146,6 +146,11 @@ a li p:hover:before {
 }
 
 
+#homeframe {
+  width:100%;
+  border: none;
+  height:30em;
+}
 /* Main Content */
 
 #main-container {
@@ -267,9 +272,9 @@ a li p:hover:before {
   background-color: rgba(255, 129, 171, 0.3);
   padding-bottom: 1em;
   margin-top: 2em;
-  transition: background-color .5s linear;
-  -webkit-transition: background-color .5s linear;
-  -moz-transition: background-color .5s linear;
+  transition: background-color .2s ease;
+  -webkit-transition: background-color .2s ease;
+  -moz-transition: background-color .2s ease;
 }
 .project-container:hover {
   background-color: rgba(255, 129, 171, .7);
