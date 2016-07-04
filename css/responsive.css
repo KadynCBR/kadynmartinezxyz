@@ -12,6 +12,12 @@
       left: -18px;
       margin: 0 auto;
   }
+  #cherrylogotext {
+    font-size: 95px;
+  }
+  #roboticslogotext {
+    font-size: 36px;
+  }
   #header {
     height: 15em;
   }
