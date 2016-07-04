@@ -39,14 +39,20 @@ a {
   height: 10em;
   border-bottom: 3px solid #ffd1e1;
 }
+#cherryhead {
+  position: relative;
+  width: 360px;
+  display: inline-block;
+  height: 160px;
+}
 
 .logo {
   position:relative;
   display: inline-block;
   top: 3em;
   left: 4em;
-  width: 185px;
-  height: 185px;
+  width: 169px;
+  height: 169px;
   margin:-60px 0 0 -60px;
   -webkit-animation:spin 10s linear infinite;
   -moz-animation:spin 10s linear infinite;
@@ -59,22 +65,22 @@ transform:rotate(360deg); }}
 
 #cherrylogotext {
   display: inline-block;
-  position: relative;
+  position: absolute;
   color: #ff3678;
   font-family: ace;
-  font-size: 6.75em;
-  left: -0.25em;
-  top: -0.09em;
+  font-size: 6em;
+  left: 82px;
+  top: 42px;
 }
 
 #roboticslogotext {
   display: inline-block;
-  position: relative;
+  position: absolute;
   color: #ff3678;
   font-family: ace;
-  font-size: 2.5em;
-  left: -5.9em;
-  top: 0.27em;
+  font-size: 2.3em;
+  top: 101px;
+  right: 23px;
 }
 
 #kadynmartinezheadertext {
@@ -88,7 +94,11 @@ transform:rotate(360deg); }}
   margin-right: 20px;
 }
 
-nav {
+#swipe-indicator {
+    display:none;
+}
+
+#navi {
   text-align: right;
   position: absolute;
   display: inline-block;
@@ -97,7 +107,7 @@ nav {
   right: 0;
 }
 
-nav ul {
+#navi ul {
   list-style: none;
   display: inline-block;
   /*margin-top: 8em;  We don't really need this i think.. */
@@ -105,14 +115,14 @@ nav ul {
   margin-right: 1em;
 }
 
-nav ul a {
+#navi ul a {
   text-decoration: none;
   color: #ff3678;
   margin-right: 10px;
   height: 2em;
 }
 
-nav ul li {
+#navi ul li {
   display: inline-block;
   background-color: #ffd1e1;
   width: 10em;
@@ -120,7 +130,7 @@ nav ul li {
   padding-bottom: 2px;
 }
 
-nav ul li p {
+#navi ul li p {
   margin-top: 3px;
   position: relative;
 }

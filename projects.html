@@ -4,21 +4,31 @@
   <title>Kadyn Martinez</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script
+			  src="https://code.jquery.com/jquery-3.0.0.min.js"
+			  integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+			  crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="scripts/mobilebringup.js"></script>
   <!-- Favicons -->
   <link rel="shortcut icon" href="/img/ico/favicon.ico" />
   <!-- #favicons -->
   <link rel="stylesheet" type="text/css" href="css/standard.css"/>
   <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+  <link rel="stylesheet" type="text/css" href="css/mobilenav.css"/>
 </head>
 <body>
   <div id="body-container">
   <div id="header">
     <!-- Navigation menu, Header/banner, etc. -->
-    <img class="logo" src="img/CherryRoboticsLogokinda.png" alt="" width="120" heigh="120">
-    <h1 id="cherrylogotext">Cherry</h1>
-    <h2 id="roboticslogotext">Robotics</h2>
+    <div id="cherryhead">
+      <img class="logo" src="img/CherryRoboticsLogokinda.png" alt="" width="120" heigh="120">
+      <h1 id="cherrylogotext">Cherry</h1>
+      <h2 id="roboticslogotext">Robotics</h2>
+    </div>
     <h1 id="kadynmartinezheadertext">Kadyn Martinez</h1>
-    <nav>
+    <div id="swipe-indicator"><p>Swipe Right for menu</p></div>
+    <nav id="navi">
       <ul>
         <a href="index.html"><li><p>Home</p></li></a>
         <a href="about.html"><li><p>About</p></li></a>
@@ -146,6 +156,13 @@
     </p>
   </div>
 </div>
+<!-- Mobile Navigation -->
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+	<h3>Menu</h3>
+	<a href="#">Home</a>
+	<a href="about.html">About</a>
+	<a href="projects.html">Projects</a>
+	<a href="contact.html">Contact</a>
+</nav>
 </body>
-
 </html>

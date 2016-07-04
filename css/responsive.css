@@ -3,15 +3,82 @@
   1150x breakpoint for mobile menu and name
   also shortest width projects list looks good.
 */
-
-@media screen and (max-width:1300px) {
-
+@media screen and (max-width:1050px) {
+  #cherryhead {
+      position: relative;
+      width: 360px;
+      display: block;
+      height: 160px;
+      left: -18px;
+      margin: 0 auto;
+  }
+  #header {
+    height: 15em;
+  }
+  #kadynmartinezheadertext {
+      display: block;
+      position: relative;
+      color: #82abff;
+      font-family: ace;
+      font-size: 3em;
+      margin-right: 0;
+      top: 0;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 10px;
+  }
+  #navi {
+    display: none;
+  }
+  #swipe-indicator {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ff3678;
+    height:2em;
+    background-color: #ffd1e1;
+  }
+  #swipe-indicator p {
+    padding-top: .5em;
+  }
 }
-
-@media screen and (max-width: 1250px) {
-
+@media screen and (max-width: 320px) {
+  #roboticslogotext {
+    display: inline-block;
+    position: absolute;
+    color: #ff3678;
+    font-family: ace;
+    font-size: 2em;
+    top: 91px;
+    right: 27px;
 }
-
-@media screen and (max-width:1000px) {
-
+#cherrylogotext {
+    display: inline-block;
+    position: absolute;
+    color: #ff3678;
+    font-family: ace;
+    font-size: 5em;
+    left: 82px;
+    top: 42px;
+}
+.logo {
+    position: relative;
+    display: inline-block;
+    top: 3.4em;
+    left: 4em;
+    width: 150px;
+    height: 150px;
+    margin: -60px 0 0 -60px;
+    -webkit-animation: spin 10s linear infinite;
+    -moz-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite;
+}
+#cherryhead {
+    position: relative;
+    width: 320px;
+    display: block;
+    height: 160px;
+    left: -18px;
+    margin: 0 auto;
+}
 }
