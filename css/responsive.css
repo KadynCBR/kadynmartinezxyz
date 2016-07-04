@@ -41,6 +41,37 @@
   #swipe-indicator p {
     padding-top: .5em;
   }
+
+  #left-about {
+    padding-top: 3em;
+    width: 100%;
+    display: inline-block;
+    float: unset;
+    position: relative;
+    margin-left: 0;
+  }
+  #right-about {
+    width: 100%;
+    float: unset;
+  }
+
+  .left-project {
+    width: 100%;
+    float: unset;
+  }
+  .right-project {
+    display: block;
+    width: 90%;
+    padding-right: 0;
+    float: unset;
+    margin: 0 auto;
+  }
+  .project-container {
+    max-height: 21em;
+  }
+  .imagecontainer {
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 320px) {
   #roboticslogotext {
