@@ -76,6 +76,19 @@
   .project-container {
     max-height: 21em;
   }
+
+  #left-contact {
+    display: block;
+    float: unset;
+    width: 100%;
+  }
+
+  #right-contact {
+    display: block;
+    float: unset;
+    width: 100%;
+    margin-left: 0;
+  }
   .imagecontainer {
     margin: 0 auto;
   }
