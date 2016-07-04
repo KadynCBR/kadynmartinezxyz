@@ -92,6 +92,9 @@
   .imagecontainer {
     margin: 0 auto;
   }
+  .bottom-right-triangle {
+    left: -1px;
+  }
 }
 @media screen and (max-width: 320px) {
   #roboticslogotext {
