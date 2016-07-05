@@ -95,6 +95,11 @@
   .bottom-right-triangle {
     right: -1px;
   }
+
+  .pro-picture {
+    width: unset;
+    float: unset;
+  }
 }
 @media screen and (max-width: 320px) {
   #roboticslogotext {
