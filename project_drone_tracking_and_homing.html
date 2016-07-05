@@ -38,28 +38,34 @@
       </ul>
     </nav>
   </div>
+
   <div id="main-container">
-     <!-- stuff -->
      <div class="pro-picture">
-       <img src="img/projects/dronedev.jpeg"/>
+       <img src="img/CherryRoboticsLogokinda.png"/>
      </div>
      <div class="pro-description">
-       <h2 class="pro-title pro-name">Name: Autonomous Drone Build</h2>
-       <h2 class="pro-title pro-status">Status: In-Progress (Non-Functional)</h2>
+       <h2 class="pro-title pro-name">Name: Drone Tracking and Homing</h2>
+       <h2 class="pro-title pro-status">Status: In-Progress (Partial Functionality)</h2>
        <h2 class="pro-title pro-technology">Stuff Used/Learned: </h2>
        <ul class="pro-technology-list">
          <li>ROS</li>
-         <li>PX4</li>
+         <li>OpenCV</li>
          <li>C++</li>
-         <li>MAVROS</li>
        </ul>
-       <h2 class="pro-title pro-code">Code: <a href="#">No published code</a></h2>
+       <h2 class="pro-title pro-code">Code: <a href="#">No published code.</a></h2>
        <h2 class="pro-title pro-desc">Description:</h2>
-       <p class="pro-desc-body">This is my first attempt at building a drone from the ground up. For now
-       it utilizes a PX4IMUv1 and I'll hopefully be able to interface it with a
-       raspberry pi running ROS. So far it's been difficult to work with due to the
-       extreme obscurity of the PX4IMUv1, I might just upgrade to a legitimate PixHawk
-       when funds allow due to availability of documentation.
+       <p class="pro-desc-body">My use of OpenCV and ROS. The project aims to use the monocular camera
+       to control the movements of a AR.Drone 2.0. It does this by tracking a
+       color and keeping it within view using control algorithms. The idea is to
+       eventually make this turn into a drone follower.
+       So far my plan is to have the camera lock onto the color of a shirt/object and
+       track the size and location of a bounding rectangle over the viewpoint.
+       as soon as the rectangle becomes smaller, that will be indication that
+       the object has moved away, and give commands to fly forward. Conversely, if
+       the bounding rectangle becomes bigger, it will give the opposite implication
+       and the drone will move backwards. I'd like to implement this on an Intel
+       Edison, or perhaps an odroid, sitting aboard the Ar.Drone so it will be
+       an onboard solution.
        </p>
      </div>
 </div>

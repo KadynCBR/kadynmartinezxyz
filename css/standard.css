@@ -394,3 +394,36 @@ a li p:hover:before {
   width: 90%;
 }
 /* /Contact */
+
+
+
+/* Project Display */
+
+.pro-picture {
+  margin-top: 2em;
+  /*height: 15em;*/
+  width:50%;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+.pro-picture img {
+  /*height: 15em;*/
+  display: block;
+  width: 25em;
+  margin: 0 auto;
+  background-color: white;
+}
+.pro-description {
+  margin-top: 3em;
+}
+.pro-title {
+  color: #E8EFFF;
+  padding-top:1em;
+  font-size: 1.2em;
+}
+.pro-technology-list li{
+  color: #ff3678;
+  margin-left: 10px;
+}
+/* /Project Display */
