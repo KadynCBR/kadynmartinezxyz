@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Kadyn Martinez</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script
+			  src="https://code.jquery.com/jquery-3.0.0.min.js"
+			  integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+			  crossorigin="anonymous"></script>
+
+  <script src="scripts/mobilebringup.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="/img/ico/favicon.ico" />
+  <!-- #favicons -->
+  <link rel="stylesheet" type="text/css" href="css/standard.css"/>
+  <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+  <link rel="stylesheet" type="text/css" href="css/mobilenav.css"/>
+</head>
+<body>
+  <div id="body-container">
+  <div id="header">
+    <!-- Navigation menu, Header/banner, etc. -->
+    <div id="cherryhead">
+      <img class="logo" src="img/CherryRoboticsLogokinda.png" alt="" width="120" heigh="120">
+      <h1 id="cherrylogotext">Cherry</h1>
+      <h2 id="roboticslogotext">Robotics</h2>
+    </div>
+    <h1 id="kadynmartinezheadertext">Kadyn Martinez</h1>
+    <div id="swipe-indicator"><p>Tap for menu</p></div>
+    <nav id="navi">
+      <ul>
+        <a href="index.html"><li><p>Home</p></li></a>
+        <a href="about.html"><li><p>About</p></li></a>
+        <a href="projects.html"><li><p>Projects</p></li></a>
+        <a href="contact.html"><li><p>Contact</p></li></a>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="main-container">
+     <div class="pro-picture">
+       <img src="img/apricot-linear-library.png"/>
+     </div>
+     <div class="pro-description">
+       <h2 class="pro-title pro-name">Name: Apricot Linear Library</h2>
+       <h2 class="pro-title pro-status">Status: In-Progress, functional, not feature-complete</h2>
+       <h2 class="pro-title pro-technology">Stuff Used/Learned: </h2>
+       <ul class="pro-technology-list">
+         <li>C++</li>
+         <li>Proper Git workflow</li>
+       </ul>
+       <h2 class="pro-title pro-code">Code: <a href="https://github.com/KadynCBR/Apricot-Linear-Library">[CODE HERE]</a></h2>
+       <h2 class="pro-title pro-desc">Description:</h2>
+       <p class="pro-desc-body">
+        This is my C++ Library for doing Linear Algebra. This was mainly to help me with my robotics
+			  projects in which linear equations needed to be solved ie) flight controls, machine learning etc. 
+			  Despite being a few other C++ libraries, I took it upon myself to create my own in-house library 
+				with my own specific use-cases in mind. 
+         Since most of my work is done in C++ I decided to use it for Apricot so I could easily implement
+         it with ROS. This project is also one of my recent ones collaborating with another person so I 
+         tried my best to maintain a proper git workflow, ie) branching, pull requests, etc. 
+       </p>
+     </div>
+</div>
+<div id="footer">
+  <!-- Social media links, copyright, etc. etc. -->
+  <ul id="footericons">
+    <a href="https://www.facebook.com/The.World.I.Only.Know"><li><img src="img/mediaicons/Facebook.png"/></li></a>
+    <a href="https://github.com/kadyncbr"><li><img src="img/mediaicons/Github.png"/></li></a>
+    <a href="https://www.linkedin.com/in/kadynmartinez"><li><img src="img/mediaicons/Linkedin.png"/></li></a>
+    <a href="https://twitter.com/RiotingCherry"><li><img src="img/mediaicons/Twitter.png"/></li></a>
+  </ul>
+  <p>
+    &copy; 2016 Kadyn Martinez
+  </p>
+</div>
+</div>
+<!-- Mobile Navigation -->
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+<h3>Menu</h3>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</nav>
+</body>
+</html>
